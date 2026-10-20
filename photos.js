@@ -7,8 +7,6 @@
 //         { src: "photos/sunset.jpg", title: "Sunset", category: "Landscape" },
 //
 //  "category" builds the filter buttons automatically.
-//  Delete the placeholder lines (the picsum.photos ones) when
-//  you've added your own.
 // ============================================================
 
 const SITE = {
@@ -22,16 +20,14 @@ const SITE = {
 };
 
 const PHOTOS = [
-  { src: "https://picsum.photos/id/1015/1600/1067", title: "River Valley", category: "Landscape" },
-  { src: "https://picsum.photos/id/1027/1067/1600", title: "Portrait in Light", category: "Portrait" },
-  { src: "https://picsum.photos/id/1043/1600/1067", title: "Old Town", category: "Street" },
-  { src: "https://picsum.photos/id/1018/1600/1067", title: "Mountain Air", category: "Landscape" },
-  { src: "https://picsum.photos/id/1062/1067/1600", title: "Companion", category: "Portrait" },
-  { src: "https://picsum.photos/id/1067/1600/1067", title: "City Grid", category: "Street" },
-  { src: "https://picsum.photos/id/1036/1600/1067", title: "Winter Forest", category: "Landscape" },
-  { src: "https://picsum.photos/id/1005/1067/1600", title: "Profile", category: "Portrait" },
-  { src: "https://picsum.photos/id/1078/1600/1067", title: "Crossing", category: "Street" },
-  { src: "https://picsum.photos/id/1039/1600/1067", title: "Falls", category: "Landscape" },
-  { src: "https://picsum.photos/id/1011/1067/1600", title: "On the Water", category: "Portrait" },
-  { src: "https://picsum.photos/id/1056/1600/1067", title: "Avenue", category: "Street" },
+  { src: "photos/golden-hour.jpg", title: "Golden Hour", category: "Portrait", hero: true },
+  { src: "photos/red-top.jpg", title: "In Red", category: "Portrait" },
+  { src: "photos/the-speaker.jpg", title: "The Speaker", category: "Events" },
+  { src: "photos/neon.jpg", title: "Neon", category: "Portrait" },
+  { src: "photos/three.jpg", title: "Three", category: "Street" },
+  { src: "photos/white-wall.jpg", title: "White Wall", category: "Portrait" },
+  { src: "photos/heart.jpg", title: "Heart", category: "Events" },
+  { src: "photos/suited.jpg", title: "Suited", category: "Portrait" },
+  { src: "photos/in-the-park.jpg", title: "In the Park", category: "Street" },
+  { src: "photos/bandana.jpg", title: "Bandana", category: "Portrait" },
 ];

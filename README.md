@@ -10,7 +10,7 @@ Live at https://theworldwyrm.github.io
    ```js
    { src: "photos/your-file.jpg", title: "Your title", category: "Landscape" },
    ```
-   Delete the placeholder `picsum.photos` lines. The first photo in the list is the big cover image
+   The first photo in the list is the big cover image
    (or add `hero: true` to any photo to use it instead).
 3. In the same file, change your name, tagline, about text, email and Instagram in `SITE`.
 4. Commit. The site updates in about a minute.
