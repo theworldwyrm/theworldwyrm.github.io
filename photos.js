@@ -16,7 +16,7 @@ const SITE = {
     "I'm a photographer drawn to light, place and the quiet moments in between. " +
     "This is a selection of my recent work. For collaborations or bookings, get in touch.",
   email: "otoideant1@gmail.com",
-  instagram: "visuals_byanthony", // e.g. "https://instagram.com/yourhandle" (leave empty to hide)
+  instagram: "visuals_byanthony",
 };
 
 const PHOTOS = [
