@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="30" fill="#0e0e0e" stroke="#d8c3a5" stroke-width="2"/>
+  <circle cx="32" cy="32" r="25" fill="none" stroke="#d8c3a5" stroke-width="0.75" stroke-dasharray="2 3"/>
+  <text x="32" y="40.5" text-anchor="middle" font-family="Cormorant Garamond, Georgia, 'Times New Roman', serif" font-size="23" letter-spacing="0.5" fill="#ececec">AO</text>
+</svg>
