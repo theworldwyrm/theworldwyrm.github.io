@@ -12,7 +12,7 @@
   $("year").textContent = new Date().getFullYear();
   $("email-link").textContent = SITE.email;
   $("email-link").href = "mailto:" + SITE.email;
-  if (SITE.instagram) $("insta-link").href = SITE.instagram;
+  if (SITE.instagram) $("insta-link").href = /^https?:/.test(SITE.instagram) ? SITE.instagram : "https://instagram.com/" + SITE.instagram.replace(/^@/, "");
   else $("insta-link").remove();
 
   // Hero uses the first photo (or the one marked hero: true)

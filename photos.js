@@ -21,6 +21,7 @@ const SITE = {
 
 const PHOTOS = [
   { src: "photos/golden-hour.jpg", title: "Golden Hour", category: "Portrait", hero: true },
+  { src: "photos/cover-the-graduate.jpg", title: "The Graduate (Cover)", category: "Editorial" },
   { src: "photos/red-top.jpg", title: "In Red", category: "Portrait" },
   { src: "photos/the-speaker.jpg", title: "The Speaker", category: "Events" },
   { src: "photos/neon.jpg", title: "Neon", category: "Portrait" },
