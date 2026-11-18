@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pricing — Photography</title>
+  <meta name="description" content="Photography session pricing in Winnipeg: portraits, graduations, families, events and small business shoots.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="logo.svg">
+  <link rel="apple-touch-icon" href="logo.png">
+  <link rel="stylesheet" href="style.css?v=6">
+</head>
+<body class="page">
+  <header class="site-header scrolled">
+    <a href="index.html" class="brand"><img src="logo.svg" alt="" class="logo" width="40" height="40"><span id="site-name"></span><small id="site-tagline"></small></a>
+    <nav>
+      <a href="index.html#work">Work</a>
+      <a href="pricing.html" aria-current="page">Pricing</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="pricing">
+      <h2>Pricing</h2>
+      <p class="pricing-intro">Sessions in and around Winnipeg. All prices are in CAD. Every job is a little different, so get in touch for a quote that fits what you need.</p>
+
+      <div class="price-grid">
+        <article class="price-card">
+          <h3>Portrait or Headshot</h3>
+          <p class="price"><span>Starting at</span> $100</p>
+          <ul>
+            <li>30–60 minute session</li>
+            <li>10–15 edited photos</li>
+          </ul>
+        </article>
+
+        <article class="price-card">
+          <h3>Graduation or Family</h3>
+          <p class="price"><span>Starting at</span> $150</p>
+          <ul>
+            <li>1 hour session</li>
+            <li>20–30 edited photos</li>
+          </ul>
+        </article>
+
+        <article class="price-card">
+          <h3>Events, Parties &amp; Birthdays</h3>
+          <p class="price"><span>Starting at</span> $75<small>/hr</small></p>
+          <ul>
+            <li>2-hour minimum</li>
+            <li>Edited highlights from the event</li>
+          </ul>
+        </article>
+
+        <article class="price-card">
+          <h3>Small Business or Product</h3>
+          <p class="price"><span>Starting at</span> $150</p>
+          <ul>
+            <li>Half-day shoot</li>
+            <li>Products, spaces and team photos</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="extras">
+        <h3>Add-ons</h3>
+        <dl>
+          <div><dt>Extra edited photos</dt><dd>$10–15 each</dd></div>
+          <div><dt>Rush delivery (within 48 hours)</dt><dd>+25%</dd></div>
+        </dl>
+      </div>
+
+      <p class="pricing-note">A 30–50% deposit is required to secure your booking. The balance is due on the day of the shoot.</p>
+
+      <a id="book-link" href="index.html#contact" class="btn">Book a session</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> <span id="footer-name"></span>. All rights reserved.</p>
+  </footer>
+
+  <script src="photos.js?v=6"></script>
+  <script>
+    (function () {
+      var $ = function (id) { return document.getElementById(id); };
+      document.title = "Pricing — " + SITE.name;
+      $("site-name").textContent = SITE.name;
+      $("site-tagline").textContent = SITE.tagline;
+      $("footer-name").textContent = SITE.name;
+      $("year").textContent = new Date().getFullYear();
+      if (SITE.email) $("book-link").href = "mailto:" + SITE.email + "?subject=" + encodeURIComponent("Booking enquiry");
+    })();
+  </script>
+</body>
+</html>
