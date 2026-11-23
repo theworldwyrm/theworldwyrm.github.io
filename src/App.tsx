@@ -228,7 +228,7 @@ export default function App() {
               <a href={LINKS.email} aria-label="Email" className="p-2.5 rounded-lg border border-white/20 hover:bg-white/10 transition-colors"><Mail className="w-5 h-5" /></a>
             </div>
           </div>
-          <img src={`${BASE}images/profile.png`} alt="Anthony Otoide"
+          <img src={`${BASE}images/profile.jpg`} alt="Anthony Otoide"
                className="w-44 h-44 md:w-60 md:h-60 rounded-full object-cover ring-4 ring-sky-500/40 shadow-2xl" />
         </div>
       </section>
