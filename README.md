@@ -1,18 +1,23 @@
-# Photography portfolio
+# Anthony Otoide
 
-Live at https://theworldwyrm.github.io
+- **Engineering portfolio:** https://theworldwyrm.github.io/
+- **Photography:** https://theworldwyrm.github.io/photography/
 
-## Adding your photos (all in the browser on GitHub)
+The engineering portfolio is a Vite + React + Tailwind app (`src/`). The photography site is plain HTML/CSS/JS kept in `public/photography/`. Vite copies it unchanged into the build, so it's served at `/photography/`.
 
-1. Open the `photos` folder in this repo, click **Add file → Upload files**, drag in your images, and click **Commit changes**.
-   Tip: resize to about 2000px on the long edge first so the site loads fast.
-2. Open `photos.js`, click the pencil icon, and add a line per photo:
-   ```js
-   { src: "photos/your-file.jpg", title: "Your title", category: "Landscape" },
-   ```
-   The first photo in the list is the big cover image
-   (or add `hero: true` to any photo to use it instead).
-3. In the same file, change your name, tagline, about text, email and Instagram in `SITE`.
-4. Commit. The site updates in about a minute.
+## Run locally
 
-Categories become the filter buttons automatically.
+```bash
+npm install
+npm run dev
+```
+
+## Deploy
+
+Every push to `main` builds both sites and publishes them through `.github/workflows/deploy.yml`.
+This needs **Settings → Pages → Build and deployment → Source** set to **GitHub Actions** (one-time setup).
+
+## Editing
+
+- Portfolio content is in the arrays at the top of `src/App.tsx`.
+- To add photos, put them in `public/photography/photos/` and list them in `public/photography/photos.js`.
